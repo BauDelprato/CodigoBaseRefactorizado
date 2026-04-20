@@ -10,8 +10,8 @@ Y la clase ServicioNotificaciones envía un mensaje en forma de string a un titu
 src/
 │
 └── mycompany/
-    ├── NotificacionFactory.java
-    ├── EmailFactory.java
-    ├── EmailFactory.java
-    └── SMSFactory.java
+    ├── AplicacionBancaria.java
+    ├── CuentaBancaria.java
+    ├── ImpresoraCuenta.java
+    └── ServicioNotificaciones.java
 ```
