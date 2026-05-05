@@ -11,6 +11,7 @@ public class CuentaCorriente extends CuentaBancaria{
     public boolean retirar(double monto) {
         if ((this.limite + this.saldo) >= monto){
             this.saldo -= monto;
+            return true;
         }
         return false;
     }

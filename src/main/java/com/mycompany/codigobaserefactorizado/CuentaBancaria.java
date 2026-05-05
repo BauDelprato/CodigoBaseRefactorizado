@@ -21,5 +21,5 @@ public abstract class CuentaBancaria {
     // Getters para que otras clases lean la info
     public Usuario getTitular() { return titular; }
     public double getSaldo() { return saldo; }
-    public String getNumeroCuenta() {return numeroCuenta;}
+    //public String getNumeroCuenta() {return numeroCuenta;}
 }
